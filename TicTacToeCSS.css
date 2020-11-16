@@ -1,0 +1,38 @@
+.American{                             /* Title */
+    display:inline-block; /*Word american*/
+    margin: 0px 10px 0px 530px;
+}
+h1{
+    display:inline-block;
+}
+h1:nth-of-type(even){
+    color:red;
+}
+h1:nth-of-type(odd){
+    color:blue;
+}
+.tictactoe{             /*word tictactoe*/
+    display:inline-block;
+}
+
+.grid{                          /*tic tac toe game*/
+    display: grid;
+    grid-template-columns:auto auto auto;
+    height:650px;
+    width:650px;
+    margin:auto auto auto auto;
+    float: center;
+    column-gap: 10px;
+    row-gap:10px;
+    background-color:black;
+    background-image:none;
+}
+
+.grid-child{
+    background-image:none;
+    background-size:cover;
+    background-color:white;
+    border-radius: 0px;
+    border: 100px none black;
+    outline: none;
+}
